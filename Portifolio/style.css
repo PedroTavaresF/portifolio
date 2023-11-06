@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color: rgb(188, 175, 143);
+
+}
+h1{
+    color: aliceblue;
+}
+.header{
+    background-color:lightsteelblue ; 
+    display: flex ; 
+    justify-content:space-between
+}
+
+.site-description{
+    display:flex ;
+    flex-direction: column ; 
+    justify-content:first baseline ; 
+}
+.bigdiv{
+    display : flex ;
+    flex-wrap: wrap ;
+   justify-content: space-evenly ;
+    
+}
+.footer{
+    display: flex;
+    justify-content: flex-end ; 
+}
+p,h2{
+    text-align:center ; 
+}
